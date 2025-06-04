@@ -1,10 +1,13 @@
-import styles from "./page.module.css";
+"use client";
+import { MainContent } from "@/components/mainContent";
+import { AppContent, AppWrapper } from "./page.style";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}></main>
-      <footer className={styles.footer}>testing</footer>
-    </div>
+    <AppWrapper>
+      <AppContent>
+        <MainContent></MainContent>
+      </AppContent>
+    </AppWrapper>
   );
 }
