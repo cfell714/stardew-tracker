@@ -1,0 +1,25 @@
+[{
+    "User": "Wizard",
+    "Loves": ["Book of Mysteries", "Purple Mushroom", "Solar Essence", "Super Cucumber", "Void Essence"],
+    "Likes": ["Iridium Bar", "Quartz", "All Geode Minerals", "All Trinkets"],
+    "Neutral": ["Fruit"],
+    "Dislikes": ["All Eggs", "All Milk", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Salmonberry", "Slime", "Snow Yam", "Wild Horseradish", "Winder Root"],
+    "Hates": []
+}, 
+{
+    "User": "Willy",
+    "Loves": ["Catfish", "Diamond", "Gold Bar", "Iridium Bar", "Jewels Of The Sea", "Mead", "Octopus", "Pumpkin", "Sea Cucumber", "Sturgeon", "The Art O' Crabbing"],
+    "Likes": ["Bait And Bobber", "Lingcod", "Quartz", "Seafoam Pudding", "Tiger Trout", "Baked Fish", "Carp Surprise", "Chowder", "Crab Cakes", "Crispy Bass", "Escargot", "Fish Stew", "Fish Taco", "Fried Calamari", "Fried Eel", "Lobster Bisque", "Salmon Dinner", "Seafoam Pudding", "Trout Soup"],
+    "Neutral": ["All Fish", "All Eggs", "All Fruit", "All milk", "Dis O' The Sea", "Maki Roll", "Sashimi", "Bread", "Fried Egg", "Strange Bun"],
+    "Dislikes": ["All Cooking", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Salmonberry", "Snow Yam", "Wild Horseradish", "Winter Root"],
+    "Hates": []
+},
+{
+    "User": "Vincent",
+    "Loves": ["Cranberry Candy", "Frog Egg", "Ginger Ale", "Grape", "Pink Cake", "Snail"],
+    "Likes": ["All Milk", "Coconut", "Daffodil"],
+    "Neutral": [],
+    "Dislikes": ["All Eggs", "All Fruit", "All Vegetables", "All Mushrooms","Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Quartz", "Snow Yam", "Winter Root"],
+    "Hates": ["All Artisan Goods", "Clay", "Pina Colada", "Triple Shot Espresso", "Wild Horseradish"]
+    
+}]
