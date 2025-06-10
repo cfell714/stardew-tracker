@@ -22,4 +22,222 @@
     "Dislikes": ["All Eggs", "All Fruit", "All Vegetables", "All Mushrooms","Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Quartz", "Snow Yam", "Winter Root"],
     "Hates": ["All Artisan Goods", "Clay", "Pina Colada", "Triple Shot Espresso", "Wild Horseradish"]
     
+}, {
+    "User": "Sandy",
+    "Loves": ["Crocus", "Daffodil", "Mango Sticky Rice", "Sweet Pea"],
+    "Likes": ["All Fruit", "Goat Milk", "Large Goat Milk", "Quartz", "Wool"],
+    "Neutral": ["All Eggs", "All Mushrooms", "Dandelion", "Ginger", "Hazelnut", "Large Milk", "Leek", "Milk", "Snow Yam", "Wild HorseRadish", "Winter Root"],
+    "Dislikes": [],
+    "Hates": ["Holly"]
+    
+}, {
+    "User": "Robin",
+    "Loves": ["Goat Cheese", "Peach", "Spaghetti", "Woody's Secret"],
+    "Likes": ["All Fruit", "All Milk", "Hardwood", "Quartz", "Woodcutter's Weekly"],
+    "Neutral": ["All Eggs", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut", "Leek", "Snow Yam", "Winter Root"],
+    "Dislikes": ["Wild Horseradish"],
+    "Hates": ["Holly"]   
+}, {
+    "User": "Pierre",
+    "Loves": ["Fried Calamari", "Price Catalogue"],
+    "Likes": ["All Eggs", "All Milk", "Daffodil", "Dandelion"],
+    "Neutral": ["All Fruit"],
+    "Dislikes": ["All Foraged Minerals", "Gems", "All Mushrooms", "Ginger", "Hazelnut", "Holly", "Leek", "Salmonberry", "Snow Yam", "Wild Horseradish", "Winder Root"],
+    "Hates": ["Holly"]   
+},  {
+    "User": "Pam",
+    "Loves": ["Beer", "Cactus Fruit", "Glazed Yams", "Mead", "Pale Ale", "Parsnip", "Parsnip Soup", "Pina Colada"],
+    "Likes": ["All Fruit", "Daffodil"],
+    "Neutral": ["All Fish", "All Mushrooms", "Dandelion", "Ginger", "Hazelnut", "Joja Cola", "Leek", "Snow Yam", "Winter Root"],
+    "Dislikes": ["Quartz", "Wild Horseradish"],
+    "Hates": ["Holly", "Octopus", "Squid"]   
+},{
+    "User": "Marnie",
+    "Loves": ["Diamond", "Farmer's Lunch", "Pink Cake", "Pumpkin Pie"],
+    "Likes": ["All Eggs", "All Milk", "Stardew Valley Almanac", "Quartz"],
+    "Neutral": ["All Fruit", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Winter Root"],
+    "Dislikes": ["Salmonberry", "Seaweed", "Wild Horseradish"],
+    "Hates": ["Clay", "Holly"]   
+},{
+    "User": "Linus",
+    "Loves": ["Blueberry Tart", "Cactus Fruit", "Coconut", "Dish O' The Sea", "The Alleyway Buffet", "Yam"],
+    "Likes": ["All Eggs", "All Fruit", "All Milk", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Snow Yam", "Spring Onion", "Wild Horseradish", "Winter Root"],
+    "Neutral": ["All Fish"],
+    "Dislikes": ["All Foraged Minerals", "All Gems", "Treasure Chest"],
+    "Hates": []   
+},{
+    "User": "Lewis",
+    "Loves": ["Autumn's Bounty", "Glazed Yams", "Green Tea", "Hot Pepper", "Vegetable Medley"],
+    "Likes": ["Blueberry", "Cactus Fruit", "Coconut"],
+    "Neutral": ["All Eggs", "All Fruit", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Winter Root"],
+    "Dislikes": ["All Milk", "Salmonberry", "Wild Horseradish"],
+    "Hates": ["Holly", "Quartz"]   
+},{
+    "User": "Leo",
+    "Loves": ["Duck Feather", "Mango", "Ostrich Egg", "Parrot Egg", "Poi"],
+    "Likes": ["Dragon Tooth", "Nautilus Shell", "Quartz", "Rainbow Shell", "Sea Urchin", "Spice Berry"],
+    "Neutral": ["All Eggs", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Life Elixir", "Pickles", "Salmonberry", "Snow Yam", "Wild HorseRadish", "Winter Root"],
+    "Dislikes": ["Quartz", "Wild Horseradish"],
+    "Hates": ["Beer", "Holly", "Hops", "Mead", "Morel", "Oil", "Pale Ale", "Pina Colada", "Triple Shot Espresso", "Unmilled Rice", "Wine"]   
+},{
+    "User": "Krobus",
+    "Loves": ["Diamond", "Iridium Bar", "Monster Compendium", "Monster Musk", "Pumpkin", "Void Egg", "Void Mayonnaise", "Wild Horseradish"],
+    "Likes": ["Gold Bar", "Quartz", "Seafoam Pudding", "Strange Bun"],
+    "Neutral": ["All Eggs", "All Fruit", "All Milk"],
+    "Dislikes": ["All Cooking", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Life Elixer", "Salmonberry", "Snow Yam", "Winter Root"],
+    "Hates": []   
+},{
+    "User": "Kent",
+    "Loves": ["Fiddlehead Risotto", "Roasted Hazelnuts"],
+    "Likes": ["All Eggs", "All Fruit", "Daffodil", "Dwarvish Safety Manual"],
+    "Neutral": [ "All Mushrooms", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Wild HorseRadish", "Winter Root"],
+    "Dislikes": ["Pina Colada", "Quartz", "Snow Yam"],
+    "Hates": ["All Milk", "Algae Soup", "Holly", "Sashimi", "Tortilla"]   
+},{
+    "User": "Jodi",
+    "Loves": ["Chocolate Cake", "Crispy Bass", "Diamond", "Eggplant Parmesan", "Fried Eel", "Pancakes", "Rhubarb Pie", "Vegetable Medley"],
+    "Likes": ["All Eggs", "All Fruit", "All Milk"],
+    "Neutral": [],
+    "Dislikes": ["All Mushrooms", "Garlic", "Ginger", "Hazelnut", "Holly", "Leek", "Quartz", "Snow Yam", "Wild Horseradish", "Winder Root"],
+    "Hates": ["Daffodil", "Dandelion", "Spice Berry"]   
+},{
+    "User": "Jas",
+    "Loves": ["Ancient Doll", "Fairy Box", "Fairy Rose", "Pink Cake", "Plum Pudding", "Strange Doll (green)", "Strange Doll (yellow)"],
+    "Likes": ["All Milk", "Coconut", "Daffodil"],
+    "Neutral": [],
+    "Dislikes": ["All Eggs", "All Fruit", "All Mushrooms", "All Vegetables", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Quartz", "Snow Yam", "Winder Root"],
+    "Hates": ["All Artisan Goods", "Clay", "Pina Colada", "Triple Shot Espresso", "Wild Horseradish"]   
+},{
+    "User": "Gus",
+    "Loves": ["Diamond", "Escargot", "Fish Taco", "Orange", "Tropical Curry"],
+    "Likes": ["Daffodil", "Truffle"],
+    "Neutral": ["All Eggs", "All Fruit", "All Milk", "All Mushrooms", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Winter Root"],
+    "Dislikes": ["Salmonberry", "Wild Horseradish"],
+    "Hates": ["Coleslaw", "Holly", "Quartz"]   
+},{
+    "User": "George",
+    "Loves": ["Fried Mushroom", "Leek"],
+    "Likes": ["Daffodil"],
+    "Neutral": ["All Eggs", "All Fruit", "All Milk", "All Mushrooms", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Winter Root"],
+    "Dislikes": ["All Flowers", "Salmonberry", "Wild Horseradish"],
+    "Hates": ["Clay", "Dandelion", "Holly", "Quartz"]   
+},{
+    "User": "Evelyn",
+    "Loves": ["Beet", "Chocolate Cake", "Diamond", "Fairy Rose", "Raisins", "Stuffing", "Tulip"],
+    "Likes": ["All Milk", "Broken Glasses", "Clam", "Cockle", "Coral", "Daffodil", "Mussel", "Nautilus Shell", "Oyster", "Sea Urchin"],
+    "Neutral": ["All Eggs", "All Fruit", "All Mushrooms", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Winter Root"],
+    "Dislikes": ["Quartz", "Wild Horseradish"],
+    "Hates": ["All Fish", "Clay", "Fried Eel", "Garlic", "Holly", "Maki Roll", "Salmonberry", "Sashimi", "Spice Berry", "Spicy Eel", "Trout Soup"]   
+},{
+    "User": "Dwarf",
+    "Loves": ["Amethyst", "Aquamarine", "Emerald", "Jade", "Lava Eel", "Lemon Stone", "Omni Geode", "Ruby", "Topaz"],
+    "Likes": ["All Artifacts", "Cave Carrot", "Quartz"],
+    "Neutral": ["All Fruit", "All Milk", "Solar Essence", "Void Essence"],
+    "Dislikes": ["All Eggs", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Salmonberry", "Snow Yam", "Wild Horseradish", "Winter Root"],
+    "Hates": []   
+},{
+    "User": "Demetrius",
+    "Loves": ["Bean Hotpot", "ice Cream", "Rice Pudding", "Strawberry"],
+    "Likes": ["All Eggs", "All Fruit", "Dinosaur Egg", "Purple Mushroom"],
+    "Neutral": ["All Fish", "All Milk", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Wild HorseRadish", "Winter Root"],
+    "Dislikes": ["Quartz"],
+    "Hates": ["Holly"]   
+},{
+    "User": "Clint",
+    "Loves": ["Amethyst", "Aquamarine", "Artichoke Dip", "Emerald", "Fiddlehead Risotto", "Gold Bar", "Iridium Bar", "Jade", "Omni Geode", "Ruby", "Topaz"],
+    "Likes": ["Copper Bar", "Iron Bar", "Mining Monthly"],
+    "Neutral": ["All Eggs", "All Fruit", "All Milk", "All Mushrooms", "Coal", "Daffodil", "Dandelion", "Ginger", "Gold Ore", "Hazelnut", "Iridium Ore", "Leek", "Refined Quartz", "Snow Yam", "Winter Root"],
+    "Dislikes": ["Quartz", "Wild Horseradish"],
+    "Hates": ["All Flowers", "Quartz", "Salmonberry", "Wild Horseradish"]   
+},{
+    "User": "Caroline",
+    "Loves": ["Fish Taco", "Green Tea", "Summer Spangle", "Tropical Curry"],
+    "Likes": ["Daffodil", "Tea Leaves", "Wild Horseradish"],
+    "Neutral": ["All Eggs", "All Fruit", "All Milk"],
+    "Dislikes": ["All Mushrooms", "Amaranth", "Dandelion", "Duck Mayonnaise", "Ginger", "Hazelnut", "Holly", "Leek", "Mayonnaise", "Snow Yam", "Winder Root"],
+    "Hates": ["Quartz", "Salmonberry"]   
+},{
+    "User": "Penny",
+    "Loves": ["All Books", "Diamond", "Emerald", "Melon", "Poppy", "Poppyseed Muffin", "Red Plate", "Roots Platter", "Sandfish", "Tom Kha Soup"],
+    "Likes": ["All Artifacts", "All Milk", "Dandelion", "Leek"],
+    "Neutral": ["All Eggs", "All Fruit", "All Mushrooms", "Daffodil", "Ginger", "Hazelnut",  "Snow Yam", "Wild HorseRadish", "Winter Root"],
+    "Dislikes": ["Algae Soup", "Duck Feather", "Pale Broth", "Purple Mushroom", "Quartz", "Red Mushroom", "Salmonberry", "Wool"],
+    "Hates": ["Beer", "Grape", "Holly", "Hops", "Mead", "Pale Ale", "Pina Colada", "Rabbit's Food", "Wine"]   
+},{
+    "User": "Maru",
+    "Loves": ["Battery Pack", "Cauliflower", "Diamond", "Dwarf Gadget", "Gold Bar", "Iridium Bar", "Miner's Treat", "Pepper Poppers", "Radioactive Bar", " Rhubarb Pie", "Strawberry"],
+    "Likes": ["All Mushrooms", "Copper Bar", "Iron Bar", "Oak Resin", "Pine Tart", "Quartz", "Radioactive Ore"],
+    "Neutral": ["All Eggs", "All Fruit", "All Milk", "Daffodil", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Wild HorseRadish", "Winter Root"],
+    "Dislikes": ["Quartz", "Wild Horseradish"],
+    "Hates": ["Salmonberry", "Seaweed", "Wild Horseradish"]   
+},{
+    "User": "Leah",
+    "Loves": ["Goat Cheese", "Poppyseed Muffin", "Salad", "Stir Fry", "Truffle", "Vegetable Medley", "Wine"],
+    "Likes": ["All Eggs", "All Fruit", "All Milk", "All Mushrooms", "Daffodil", "Dandelion", "Driftwood", "Ginger", "Hazelnut", "Holly", "Leek", "Snow Yam", "Spring Onion", "Wild Horseradish", "Winter Root"],
+    "Neutral": [],
+    "Dislikes": ["All Foraged Minerals", "All Gems", "Carp Surprise", "Cookie", "Fried Egg", "Ice Cream", "Pink Cake", "Rice Pudding", "Seaweed", "Survival Burger", "Tortilla"],
+    "Hates": ["Bread", "Hashbrowns", "Pancakes", "Pizza", "Void Egg"]   
+},{
+    "User": "Haley",
+    "Loves": ["Coconut", "Fruit Salad", "Pink Cake", "Sunflower"],
+    "Likes": ["Daffodil"],
+    "Neutral": [],
+    "Dislikes": ["All Eggs", "All Fruit", "All Milk", "All Mushrooms", "All Vegetables", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Mystic Syrup", "Quartz", "Snow Yam", "Winter Root"],
+    "Hates": ["All Fish", "Clay", "Prismatic Shard", "Wild Horseradish"]   
+},{
+    "User": "Emily",
+    "Loves": ["Amethyst", "Aquamarine", "Cloth", "Emerald", "Jade", "Parrot Egg", "Ruby", "Survival Burger", "Topaz", "Wool"],
+    "Likes": ["Daffodil", "Quartz"],
+    "Neutral": ["All Eggs", "All Fruit", "All Milk", "All Mushrooms", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Wild HorseRadish", "Winter Root"],
+    "Dislikes": ["Fried Eel", "Ice Cream", "Rice Pudding", "Salmonberry", "Spicy Eel"],
+    "Hates": ["Fish Taco", "Holly", "Maki Roll", "Salmon Dinner", "Sashimi"]   
+},{
+    "User": "Abigail",
+    "Loves": ["Amethyst", "Banana Pudding", "Blackberry Cobbler", "Chocolate Cake", "Monster Compendium", "Pufferfish", "Pumpkin", "Spicy Eel"],
+    "Likes": ["Ancient Sword", "Baskilisk Paw", "Bone Flute", "Combat Quarterly", "Quartz"],
+    "Neutral": ["All Milk", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Winter Root"],
+    "Dislikes": ["Quartz", "Wild Horseradish"],
+    "Hates": ["All Eggs", "All Fruit", "All Vegetables", "Sugar", "Wild Horseradish"]   
+},{
+    "User": "Shane",
+    "Loves": ["Beer", "Hot Pepper", "Pepper Poppers", "Pizza"],
+    "Likes": ["All Eggs", "All Fruit"],
+    "Neutral": ["All Milk", "Strange Bun"],
+    "Dislikes": ["All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Seaweed", "Snow Yam", "Wild Horseradish", "Winter Root"],
+    "Hates": ["Pickles", "Quartz"]   
+},{
+    "User": "Sebastian",
+    "Loves": ["Frog Egg", "Frozen Tear", "Obsidian", "Pumpkin Soup", "Sashimi", "Void Egg"],
+    "Likes": ["Combat Quarterly", "Flounder", "Monster Compendium", "Quartz"],
+    "Neutral": ["All Fish", "All Fruit", "All Milk"],
+    "Dislikes": ["All Flowers", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Salmonberry", "Snow Yam", "Wild Horseradish", "Winter Root"],
+    "Hates": ["All Artisan Goods", "All Eggs", "Clay", "Complete Breakfast", "Farmer's Lunch", "Omelet", "Pina Colada"]   
+},{
+    "User": "Sam",
+    "Loves": ["Cactus Fruit", "Maple Bar", "Pizza", "Tigerseye"],
+    "Likes": ["All Eggs", "Joja Cola"],
+    "Neutral": ["All Fruit", "All Milk"],
+    "Dislikes": ["All Mushrooms", "All Vegetables", "Daffodil", "Dandelion","Ginger", "Hazelnut", "Holly", "Leek", "Quartz", "Salmonberry", "Seaweed", "Snow Yam", "Wild Horseradish", "Winder Root"],
+    "Hates": ["Bone Fragment", "Cinder Shard", "Coal", "Copper Bar", "Duck Mayonnaise", "Gold Bar", "Gold Ore", "Iridium Bar", "Iridium Ore", "Iron Bar", "Mayonnaise", "Pickles", "Refined Quartz"]   
+},{
+    "User": "Harvey",
+    "Loves": ["Coffee", "Pickles", "Super Meal", "Truffle Oil", "Wine"],
+    "Likes": ["All Fruit", "All Mushrooms", "Daffodil", "Dandelion", "Duck Egg", "Duck Feather", "Ginger", "Goat Milk", "Hazelnut", "Holly", "Large Goat Milk", "Leek", "Quartz", "Snow Yam", "Spring Onion", "Wild Horseradish", "Winter Root"],
+    "Neutral": ["All Eggs", "Large Milk", "Milk"],
+    "Dislikes": ["Blueberry Tart", "Bread", "Cheese", "Chocolate Cake", "Cookie", "Cranberry Sauce", "Fried Mushroom", "Glazed Yam", "Goat Cheese", "Hashbrowns", "Ice Cream", "Pancakes", "Pink Cake", "Pizza", "Rhubarb Pie", "Rice Pudding"],
+    "Hates": ["Coral", "Nautilus Shell", "Rainbow Shell", "Salmonberry", "Spice Berry"]   
+},{
+    "User": "Elliot",
+    "Loves": ["Crab Cakes", "Duck Feather", "Lobster", "Pomegranate", "Squid Ink", "Tom Kha Soup"],
+    "Likes": ["All Books", "All Fruit", "Octopus", "Squid"],
+    "Neutral": ["All Eggs", "All Fish", "Rainbow Shell", "Sea Urchin"],
+    "Dislikes": ["All Milk", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Pizza", "Snow Yam", "Wild Horseradish", "Winder Root"],
+    "Hates": ["Amaranth", "Quartz", "Salmon Dinner", "Sea Cucumber", "Super Cucumber"]   
+},{
+    "User": "Alex",
+    "Loves": ["Complete Breakfast", "Jack Be Nimble, Jack Be Thick", "Salmon Dinner"],
+    "Likes": ["All Eggs", "Dinosaur Egg", "Field Snack", "Parrot Egg"],
+    "Neutral": ["All Fruit", "All Milk","All Mushrooms", "Daffodil", "Dandelion", "Frog Egg", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Winter Root"],
+    "Dislikes": ["All Books", "Salmonberry", "Wild Horseradish"],
+    "Hates": ["Holly", "Quartz"]   
 }]
