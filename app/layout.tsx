@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Chelsea Fell",
-  description: "Chelsea Fell's website",
+  title: "Stardew Tracker",
+  description: "Stardew Tracker website",
 };
 
 export default function RootLayout({

@@ -5,14 +5,15 @@ export const AppWrapper = styled.div`
   background-image: url("/images/stardewDesktop.jpg");
   background-size: cover;
   color: white;
+  font-weight: 500;
 `;
 
 export const AppContent = styled.main`
-  padding: 100px;
   display: flex;
   flex-direction: column;
   height: 100%;
   overflow: auto;
+  font-family: "Courier New", Courier, monospace;
 `;
 
 export const SearchResultsWrapper = styled.div`
@@ -20,6 +21,8 @@ export const SearchResultsWrapper = styled.div`
   flex-direction: column;
   overflow-y: auto;
   gap: 10px;
+  box-sizing: border-box;
+  padding: 40px;
 `;
 
 export const SearchBarWrapper = styled.div`
@@ -31,4 +34,5 @@ export const UserDisplay = styled.div`
   display: flex;
   flex-direction: column;
   border: solid 1px grey;
+  min-width: 200px;
 `;
