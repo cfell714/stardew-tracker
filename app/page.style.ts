@@ -11,12 +11,14 @@ export const AppContent = styled.main`
   padding: 100px;
   display: flex;
   flex-direction: column;
+  height: 100%;
   overflow: auto;
 `;
 
 export const SearchResultsWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
   gap: 10px;
 `;
 
