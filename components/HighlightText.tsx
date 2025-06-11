@@ -13,6 +13,7 @@ export const HighlightText = ({
     <ListContainer>
       <strong>{header}:</strong>{" "}
       {arr.map((item, index) => {
+        if (item === "") return;
         if (item.toLowerCase().includes(searchValue.toLowerCase())) {
           const regex = new RegExp(`(${searchValue})`, "gi");
 
