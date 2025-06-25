@@ -2,9 +2,11 @@
 import {
   AppContent,
   AppWrapper,
-  SearchBarWrapper,
+  SearchBar,
+  FilterWrapper,
   SearchResultsWrapper,
   UserDisplay,
+  SearchBarWrapper,
 } from "./page.style";
 import characterData from "@/data/characterData.json";
 import Icon from "@mdi/react";
@@ -12,6 +14,7 @@ import { mdiMagnify } from "@mdi/js";
 import { useMemo, useState } from "react";
 import { HighlightText } from "../components/HighlightText";
 import { includes } from "lodash/fp";
+import { Checkbox } from "@/components/Checkbox";
 
 const newCharData = characterData.map((item) => ({
   ...item,
@@ -180,7 +183,13 @@ const newCharData = characterData.map((item) => ({
 
 export default function Home() {
   const [searchValue, setSearchValue] = useState("");
-
+  const [preferences, setPreferences] = useState([
+    "Loves",
+    "Likes",
+    "Neutral",
+    "Dislikes",
+    "Hates",
+  ]);
   const handleSearch = (event: string) => {
     setSearchValue(event);
   };
@@ -215,14 +224,41 @@ export default function Home() {
   return (
     <AppWrapper>
       <AppContent>
-        <SearchBarWrapper>
-          <Icon path={mdiMagnify} size={0.9} />
-          <input
-            type="text"
-            value={searchValue}
-            onChange={(event) => handleSearch(event.target.value)}
+        <FilterWrapper>
+          <SearchBarWrapper>
+            <Icon path={mdiMagnify} size={0.9} />
+            <SearchBar
+              type="text"
+              value={searchValue}
+              onChange={(event) => handleSearch(event.target.value)}
+            />
+          </SearchBarWrapper>
+          <Checkbox
+            text="Loves"
+            preferences={preferences}
+            setPreferences={setPreferences}
           />
-        </SearchBarWrapper>
+          <Checkbox
+            text="Likes"
+            preferences={preferences}
+            setPreferences={setPreferences}
+          />
+          <Checkbox
+            text="Neutral"
+            preferences={preferences}
+            setPreferences={setPreferences}
+          />
+          <Checkbox
+            text="Dislikes"
+            preferences={preferences}
+            setPreferences={setPreferences}
+          />
+          <Checkbox
+            text="Hates"
+            preferences={preferences}
+            setPreferences={setPreferences}
+          />
+        </FilterWrapper>
         <SearchResultsWrapper>
           {filteredSearch.map((character) => (
             <UserDisplay key={character.User}>
@@ -230,31 +266,41 @@ export default function Home() {
                 <strong>User: </strong>
                 {character.User}
               </div>
-              <HighlightText
-                arr={character.Loves}
-                searchValue={searchValue}
-                header="Loves"
-              />
-              <HighlightText
-                arr={character.Likes}
-                searchValue={searchValue}
-                header="Likes"
-              />
-              <HighlightText
-                arr={character.Neutral}
-                searchValue={searchValue}
-                header="Neutral"
-              />
-              <HighlightText
-                arr={character.Dislikes}
-                searchValue={searchValue}
-                header="Dislikes"
-              />
-              <HighlightText
-                arr={character.Hates}
-                searchValue={searchValue}
-                header="Hates"
-              />
+              {preferences.includes("Loves") && (
+                <HighlightText
+                  arr={character.Loves}
+                  searchValue={searchValue}
+                  header="Loves"
+                />
+              )}
+              {preferences.includes("Likes") && (
+                <HighlightText
+                  arr={character.Likes}
+                  searchValue={searchValue}
+                  header="Likes"
+                />
+              )}
+              {preferences.includes("Neutral") && (
+                <HighlightText
+                  arr={character.Neutral}
+                  searchValue={searchValue}
+                  header="Neutral"
+                />
+              )}
+              {preferences.includes("Dislikes") && (
+                <HighlightText
+                  arr={character.Dislikes}
+                  searchValue={searchValue}
+                  header="Dislikes"
+                />
+              )}
+              {preferences.includes("Hates") && (
+                <HighlightText
+                  arr={character.Hates}
+                  searchValue={searchValue}
+                  header="Hates"
+                />
+              )}
             </UserDisplay>
           ))}
         </SearchResultsWrapper>

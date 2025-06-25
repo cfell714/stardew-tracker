@@ -22,12 +22,15 @@ export const SearchResultsWrapper = styled.div`
   overflow-y: auto;
   gap: 10px;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 0 40px 40px 40px;
 `;
 
-export const SearchBarWrapper = styled.div`
+export const FilterWrapper = styled.div`
+  padding: 40px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
 `;
 
 export const UserDisplay = styled.div`
@@ -35,4 +38,29 @@ export const UserDisplay = styled.div`
   flex-direction: column;
   border: solid 1px grey;
   min-width: 200px;
+`;
+
+export const SearchBar = styled.input`
+  border: none;
+  width: 100%;
+  background: transparent;
+  color: white;
+  outline: none;
+  height: 30px;
+  border-bottom: solid 1px grey;
+`;
+
+export const SearchBarWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-width: 100px;
+`;
+
+export const CheckboxInput = styled.input``;
+
+export const CheckboxWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
 `;

@@ -22,7 +22,9 @@ export const HighlightText = ({
             <span key={item + index}>
               {parts.map((part, index) =>
                 part.toLowerCase() === searchValue.toLowerCase() ? (
-                  <HighlightedText key={index}>{part}</HighlightedText>
+                  <HighlightedText key={index} tabIndex={0}>
+                    {part}
+                  </HighlightedText>
                 ) : (
                   <span key={index}>{part}</span>
                 )
