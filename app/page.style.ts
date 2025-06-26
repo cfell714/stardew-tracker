@@ -12,7 +12,6 @@ export const AppContent = styled.main`
   display: flex;
   flex-direction: column;
   height: 100%;
-  overflow: auto;
   font-family: "Courier New", Courier, monospace;
 `;
 
@@ -22,11 +21,11 @@ export const SearchResultsWrapper = styled.div`
   overflow-y: auto;
   gap: 10px;
   box-sizing: border-box;
-  padding: 0 40px 40px 40px;
+  padding: 0 40px 0 40px;
 `;
 
 export const FilterWrapper = styled.div`
-  padding: 40px;
+  padding: 0 40px 40px 40px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -56,11 +55,4 @@ export const SearchBarWrapper = styled.div`
   align-items: center;
   width: 100%;
   min-width: 100px;
-`;
-
-export const CheckboxInput = styled.input``;
-
-export const CheckboxWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
 `;

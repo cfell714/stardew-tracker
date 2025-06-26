@@ -1,4 +1,4 @@
-import { CheckboxInput, CheckboxWrapper } from "@/app/page.style";
+import { CheckboxInput, CheckboxWrapper } from "./Checkbox.style";
 
 export const Checkbox = ({
   text,
@@ -9,8 +9,6 @@ export const Checkbox = ({
   preferences: string[];
   setPreferences: (preferences: string[]) => void;
 }) => {
-  console.log(text);
-  console.log([...preferences, ...text]);
   return (
     <CheckboxWrapper>
       <CheckboxInput

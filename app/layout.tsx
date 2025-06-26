@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { AppLayout } from "./AppLayout";
+import StyledComponentsRegistry from "@/lib/registry";
 
 export const metadata: Metadata = {
   title: "Stardew Tracker",
@@ -12,7 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{ margin: 0 }}>{children}</body>
+      <body style={{ margin: 0 }}>
+        <StyledComponentsRegistry>
+          <AppLayout>{children}</AppLayout>
+        </StyledComponentsRegistry>
+      </body>
     </html>
   );
 }
