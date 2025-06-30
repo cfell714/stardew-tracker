@@ -9,8 +9,8 @@
 {
     "User": "Willy",
     "Loves": ["Catfish", "Diamond", "Gold Bar", "Iridium Bar", "Jewels Of The Sea", "Mead", "Octopus", "Pumpkin", "Sea Cucumber", "Sturgeon", "The Art O' Crabbing"],
-    "Likes": ["Bait And Bobber", "Lingcod", "Quartz", "Seafoam Pudding", "Tiger Trout", "Baked Fish", "Carp Surprise", "Chowder", "Crab Cakes", "Crispy Bass", "Escargot", "Fish Stew", "Fish Taco", "Fried Calamari", "Fried Eel", "Lobster Bisque", "Salmon Dinner", "Seafoam Pudding", "Trout Soup"],
-    "Neutral": ["All Fish", "All Eggs", "All Fruit", "All milk", "Dis O' The Sea", "Maki Roll", "Sashimi", "Bread", "Fried Egg", "Strange Bun"],
+    "Likes": ["Bait And Bobber", "Lingcod", "Quartz", "Seafoam Pudding", "Tiger Trout", "Baked Fish", "Carp Surprise", "Chowder", "Crab Cakes", "Crispy Bass", "Escargot", "Fish Stew", "Fish Taco", "Fried Calamari", "Fried Eel", "Lobster Bisque", "Salmon Dinner",  "Trout Soup"],
+    "Neutral": ["All Fish", "All Eggs", "All Fruit", "All milk", "Dis O' The Sea", "Maki Roll", "Sashimi",  "Strange Bun"],
     "Dislikes": ["All Cooking", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut", "Holly", "Leek", "Salmonberry", "Snow Yam", "Wild Horseradish", "Winter Root"],
     "Hates": []
 },
@@ -137,7 +137,7 @@
     "Hates": []   
 },{
     "User": "Demetrius",
-    "Loves": ["Bean Hotpot", "ice Cream", "Rice Pudding", "Strawberry"],
+    "Loves": ["Bean Hotpot", "Ice Cream", "Rice Pudding", "Strawberry"],
     "Likes": ["All Eggs", "All Fruit", "Dinosaur Egg", "Purple Mushroom"],
     "Neutral": ["All Fish", "All Milk", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Wild HorseRadish", "Winter Root"],
     "Dislikes": ["Quartz"],
@@ -169,7 +169,7 @@
     "Likes": ["All Mushrooms", "Copper Bar", "Iron Bar", "Oak Resin", "Pine Tart", "Quartz", "Radioactive Ore"],
     "Neutral": ["All Eggs", "All Fruit", "All Milk", "Daffodil", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Wild HorseRadish", "Winter Root"],
     "Dislikes": ["Quartz", "Wild Horseradish"],
-    "Hates": ["Salmonberry", "Seaweed", "Wild Horseradish"]   
+    "Hates": ["Salmonberry",  "Wild Horseradish"]   
 },{
     "User": "Leah",
     "Loves": ["Goat Cheese", "Poppyseed Muffin", "Salad", "Stir Fry", "Truffle", "Vegetable Medley", "Wine"],
@@ -197,7 +197,7 @@
     "Likes": ["Ancient Sword", "Baskilisk Paw", "Bone Flute", "Combat Quarterly", "Quartz"],
     "Neutral": ["All Milk", "All Mushrooms", "Daffodil", "Dandelion", "Ginger", "Hazelnut",  "Leek", "Snow Yam", "Winter Root"],
     "Dislikes": ["Quartz", "Wild Horseradish"],
-    "Hates": ["All Eggs", "All Fruit", "All Vegetables", "Sugar", "Wild Horseradish"]   
+    "Hates": ["All Eggs", "All Fruit", "All Vegetables",  "Wild Horseradish"]   
 },{
     "User": "Shane",
     "Loves": ["Beer", "Hot Pepper", "Pepper Poppers", "Pizza"],

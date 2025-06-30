@@ -1,20 +1,5 @@
 import styled from "styled-components";
 
-export const AppWrapper = styled.div`
-  height: 100vh;
-  background-image: url("/images/stardewDesktop.jpg");
-  background-size: cover;
-  color: white;
-  font-weight: 500;
-`;
-
-export const AppContent = styled.main`
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  font-family: "Courier New", Courier, monospace;
-`;
-
 export const SearchResultsWrapper = styled.div`
   display: flex;
   flex-direction: column;

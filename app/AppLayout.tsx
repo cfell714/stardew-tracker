@@ -1,5 +1,6 @@
 "use client";
 import {
+  AppContent,
   AppWrapper,
   StyledTabLink,
   StyledTabLinkWrapper,
@@ -12,7 +13,7 @@ export const AppLayout = ({ children }: { children: React.ReactNode }) => {
         <StyledTabLink href={"/"}>Home</StyledTabLink>{" "}
         <StyledTabLink href={"/characterView"}>Character View</StyledTabLink>
       </StyledTabLinkWrapper>
-      {children}
+      <AppContent>{children}</AppContent>
     </AppWrapper>
   );
 };

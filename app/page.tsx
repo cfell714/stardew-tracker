@@ -1,6 +1,5 @@
 "use client";
 import {
-  AppContent,
   SearchBar,
   FilterWrapper,
   SearchResultsWrapper,
@@ -55,7 +54,7 @@ export default function Home() {
     [searchValue]
   );
   return (
-    <AppContent>
+    <>
       <FilterWrapper>
         <SearchBarWrapper>
           <Icon path={mdiMagnify} size={0.9} />
@@ -136,6 +135,6 @@ export default function Home() {
           </UserDisplay>
         ))}
       </SearchResultsWrapper>
-    </AppContent>
+    </>
   );
 }

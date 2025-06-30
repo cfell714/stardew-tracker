@@ -23,3 +23,9 @@ export const StyledTabLinkWrapper = styled.div`
   gap: 20px;
   margin: 20px 0 20px 40px;
 `;
+
+export const AppContent = styled.main`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+`;
